@@ -18,6 +18,8 @@ const App = () => {
       .then(res => setCoinData(res.data))
       .catch(err => console.log(err));
   }, []);
+
+
   return (
     <div className="App">
       <Navbar />
